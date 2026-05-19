@@ -1,0 +1,6 @@
+{
+  "Name": "Entry Report_process",
+  "ProjectType": "Process",
+  "Description": "Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}

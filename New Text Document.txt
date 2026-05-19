@@ -1,0 +1,3 @@
+Sub FormatColumn()
+    Range("Q6:Q100").NumberFormat = "R$ #.##0,00"
+End Sub
