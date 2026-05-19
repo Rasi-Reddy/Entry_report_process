@@ -152,7 +152,7 @@
       <AssemblyReference>Microsoft.Graph.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Entry_Excel_Process" sap:VirtualizedContainerService.HintSize="785.2,16208.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Entry_Excel_Process" sap:VirtualizedContainerService.HintSize="785.2,16383.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="Dt" />
       <Variable x:TypeArguments="sd:DataTable" Name="New_Dt" />
@@ -168,6 +168,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="684.8,112.8" sap2010:WorkflowViewState.IdRef="DeleteFileX_3" Path="[&quot;C:\Users\&quot;+Environment.UserName+in_config(&quot;Final_File&quot;).ToString+now.tostring(&quot;MM-dd-yyyy&quot;)+&quot;.xlsm&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="684.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[&quot;Files Delete&quot;]" />
     <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="684.8,112.8" sap2010:WorkflowViewState.IdRef="DeleteFileX_4" Path="[&quot;C:\Users\&quot;+Environment.UserName+in_config(&quot;Final_Test_File&quot;).ToString]" />
     <Sequence DisplayName="Entry_Excel_Process" sap:VirtualizedContainerService.HintSize="684.8,13295.2" sap2010:WorkflowViewState.IdRef="Sequence_89">
       <sap:WorkflowViewStateService.ViewState>
